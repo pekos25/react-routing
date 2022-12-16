@@ -1,0 +1,29 @@
+.button {
+  background-color: #8a2be2;
+  color: darkkhaki;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #d7b2fa;
+  color: #8a2be2;
+  font-size: larger;
+  box-shadow: #8a2be2 5px 5px 1px;
+  transform: rotate(1deg);
+}
+
+.button-back:hover {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #d7b2fa;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 50px;
+  color: #8a2be2;
+  font-size: larger;
+  box-shadow: #20023b -15px 10px 1px;
+  transform: rotate(-1deg);
+}
